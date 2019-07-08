@@ -5,13 +5,17 @@ html,body{
 
 header{
 	background-color: #ffb3d9;
+	background-image: url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1864258/600/400/m2/fpnw/wm0/watercolor_floral_pattern_thumb2-.png?1478630368&s=a8d39db79b87164005bad63548dc544e');
 	padding: 40px 20px;
 	text-align: center;
 }
 
 h1{
 	font-size: 90px;
-	color: white;
+	color: black;
+	text-shadow: 0 4px 20px lightgrey;
+	margin: 0;
+	background-color: white;
 
 }
 
@@ -19,6 +23,7 @@ header img{
 	border-radius: 200px;
 	width: 300px;
 	border: 2px solid #ffffff;
+	box-shadow: 0 10px 20px lightgrey;
 
 }
 
@@ -50,6 +55,9 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	background-color: #f2f2f2;
+}
 footer{
 	margin: 20px;
 	padding: 40px 20px;
